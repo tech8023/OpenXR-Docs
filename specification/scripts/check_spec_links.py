@@ -118,12 +118,9 @@ class XRMacroCheckerFile(MacroCheckerFile):
         super().processBlockOpen(block_type, context=context,
                                  delimiter=delimiter)
 
-    @property
-    def allowEnumXrefs(self):
-        """Returns True if enums can be specified in the 'xrefs' attribute
-        of a refpage.
-        """
-        return True
+    def computeExpectedRefPageFromInclude(self, entity):
+        """Compute the expected ref page entity based on an include entity name."""
+        return entity
 
 
 def makeMacroChecker(enabled_messages):

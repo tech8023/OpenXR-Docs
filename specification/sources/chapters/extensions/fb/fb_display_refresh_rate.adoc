@@ -4,11 +4,10 @@
 
 include::{generated}/meta/XR_FB_display_refresh_rate.adoc[]
 
-*IP Status*::
-    No known IP claims.
 *Contributors*::
     Cass Everitt, Facebook +
     Gloria Kennickell, Facebook
+
 
 *Overview*
 
